@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cls-bluebird": "^2.0.1",
+    "mtgsdk": "^0.2.0",
+    "watchify": "^3.9.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0"
+  }
+}
