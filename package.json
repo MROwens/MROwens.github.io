@@ -1,21 +1,20 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify app.js -o bundle.js",
-    "watch": "watchify app.js -o bundle.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "deck_builder",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "cls-bluebird": "^2.0.1",
     "mtgsdk": "^0.2.0",
-    "watchify": "^3.9.0"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
-    "browserify": "^14.3.0"
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
